@@ -11,7 +11,7 @@ Suomenkielinen käännöspaketti itse ylläpidettävälle XenForo foorumialustal
 
 Lähetä language-Finnish-(FI).xml -tiedosto XenForon ylläpitopaneelista admin.php:n kautta sivustollesi. 
 
-Mene: Appearance --> Languages --> Import
+Siirtymällä: Appearance --> Languages --> Import
 
 Esimerkki osoitteesta: example.com/admin.php?languages/import
     
