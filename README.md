@@ -7,7 +7,7 @@ Suomenkielinen käännöspaketti itse ylläpidettävälle XenForo foorumialustal
 ## Asennus
 Lähetä language-Finnish-(FI).xml -tiedosto XenForon ylläpitopaneelista admin.php:n kautta sivustollesi. 
 
-`Mene: Appearance --> Languages --> Import`
+Mene: `Appearance --> Languages --> Import`
 
 Esimerkki osoitteesta: `example.com/admin.php?languages/import`
 ## Huomioitavaa PHP -virhetilanteissa
@@ -40,6 +40,6 @@ Tätä projektia tai sen osaa käyttävät seuraavat foorumit
 - [DigiArki.fi](https://palsta.digiarki.fi/)
 
 
-## Roadmap
+## Roadmap?
 
 - Kääntää kokonaan suomeksi
