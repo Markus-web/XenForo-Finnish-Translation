@@ -4,8 +4,8 @@ Suomenkielinen käännöspaketti itse ylläpidettävälle XenForo foorumialustal
 
 ## Julkaisut
 
-- [Lataa kehitteillä oleva versio](https://github.com/MarkusSilvo/Xenforo-Finnish-language-translation/archive/master.zip)
-- [Lataa viimeisin julkaisu](https://github.com/MarkusSilvo/Xenforo-Finnish-language-translation/releases)
+- [Lataa kehitteillä oleva versio](https://github.com/Markus-7w/XenForo-suomeksi/archive/refs/heads/main.zip)
+- [Lataa viimeisin julkaisu](https://github.com/Markus-7w/XenForo-suomeksi/releases)
 
 ## Asennus
 
