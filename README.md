@@ -6,12 +6,14 @@ Suomenkielinen käännöspaketti itse ylläpidettävälle XenForo foorumialustal
 - [Lataa viimeisin julkaisu](https://github.com/Markus-7w/XenForo-suomeksi/releases)
 ## Asennus
 Lähetä language-Finnish-(FI).xml -tiedosto XenForon ylläpitopaneelista admin.php:n kautta sivustollesi. 
+
 `Mene: Appearance --> Languages --> Import`
 
 Esimerkki osoitteesta: `example.com/admin.php?languages/import`
 ## Huomioitavaa PHP -virhetilanteissa
 Jos saat tiedostoa lähettäessä virheilmoituksen:
 `"Please upload a valid language XML file"` 
+
 Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu isompi arvo kuin 2M
 
 ## Kääntäjä(t)
