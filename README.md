@@ -37,7 +37,6 @@ Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu isompi ar
 Tätä projektia tai sen osaa käyttävät seuraavat foorumit
 
 - [AvantClub.fi](https://www.avantclub.fi/)
-- [DigiArki.fi](https://palsta.digiarki.fi/)
 
 
 ## Roadmap?
