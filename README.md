@@ -33,6 +33,8 @@ Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu isompi ar
 - [s9e/MediaSites](https://xenforo.com/community/resources/s9e-media-sites.5973/)
 - [Weekly newsletter](https://www.xf2addons.com/resources/weekly-newsletter.584/)
 - [Similar threads](https://www.xf2addons.com/resources/similar-threads.17/)
+- [Trader](https://www.xf2addons.com/resources/trader.55/)
+
 ## Lista XenForo foorumeista
 Tätä projektia tai sen osaa käyttävät seuraavat foorumit
 
@@ -41,4 +43,4 @@ Tätä projektia tai sen osaa käyttävät seuraavat foorumit
 
 ## Roadmap?
 
-- Kääntää kokonaan suomeksi
+- Kääntää kokonaan suomeksi!
