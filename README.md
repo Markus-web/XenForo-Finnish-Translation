@@ -14,11 +14,11 @@ Esimerkki osoitteesta: `example.com/admin.php?languages/import`
 Jos saat tiedostoa lähettäessä virheilmoituksen:
 `"Please upload a valid language XML file"` 
 
-Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu isompi arvo kuin 2M
+Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu isompi arvo kuin oletus 2M
 
 ## Kääntäjä(t)
 - [@Markus-7w](https://github.com/Markus-7w)
-## Sisältää seuraavien lisäosien/tyylien käännöksiä
+## Saattaa sisältää seuraavien lisäosien/tyylien käännöksiä
 
 - [UI.X 2 tyyli & lisäosa](https://www.themehouse.com/xenforo/2/themes/ui-x)
 - [Connected Account Providers](https://www.themehouse.com/xenforo/2/addons/connected-account-providers)
