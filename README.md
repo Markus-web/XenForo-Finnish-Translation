@@ -1,4 +1,4 @@
-# Xenforo suomeksi | Xenforo in Finnish
+# Xenforo suomeksi | Xenforo Finnish Translation
 Suomenkielinen käännöspaketti itse ylläpidettävälle XenForo foorumialustalle. Tarvitset vähintään XenForo 2.x version että voit asentaa tämän kielipaketin.
 
 ## Julkaisut
@@ -14,11 +14,11 @@ Esimerkki osoitteesta: `example.com/admin.php?languages/import`
 Jos saat tiedostoa lähettäessä virheilmoituksen:
 `"Please upload a valid language XML file"` 
 
-Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu isompi arvo kuin 2M
+Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu vähintään isompi arvo kuin 3M
 
 ## Kääntäjä(t)
 - [@Markus-7w](https://github.com/Markus-7w)
-## Sisältää seuraavien lisäosien/tyylien käännöksiä
+## Saattaa sisältää seuraavien lisäosien/tyylien käännöksiä
 
 - [UI.X 2 tyyli & lisäosa](https://www.themehouse.com/xenforo/2/themes/ui-x)
 - [Connected Account Providers](https://www.themehouse.com/xenforo/2/addons/connected-account-providers)
