@@ -2771,7 +2771,7 @@ Jos teit tämän muutoksen, voi ohittaa tämän viestin.</p>
 <p>IP: {ip} muutti sähköpostiosoitteesi.</p>]]></phrase>
   <phrase title="email_changed_subject" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[{board} - Sähköpostiosoite muutettu]]></phrase>
   <phrase title="email_changed_to_x" addon_id="XF" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[Email changed to {email}]]></phrase>
-  <phrase title="email_confirmation_code" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[Sähköpostin vahvistuskoodi]]></phrase>
+  <phrase title="email_confirmation_code" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[Sähköpostin vahvistuskoodi]]></phrase>
   <phrase title="email_conflicts" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[Email conflicts]]></phrase>
   <phrase title="email_conversation_notifications" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[Sähköpostikeskusteluilmoitukset]]></phrase>
   <phrase title="email_footer_html" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
@@ -2779,7 +2779,7 @@ Jos teit tämän muutoksen, voi ohittaa tämän viestin.</p>
   <phrase title="email_format" addon_id="XF" version_id="2010872" version_string="2.1.8 Patch 2"><![CDATA[Sähköpostimuoto]]></phrase>
   <phrase title="email_handler_setup" addon_id="XF" version_id="2020010" version_string="2.2.0 Alpha"><![CDATA[Email handler setup]]></phrase>
   <phrase title="email_has_been_sent_to_x_with_code" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[An email has been sent to <b>{email}</b> with a single-use code. Please enter that code to continue.]]></phrase>
-  <phrase title="email_has_been_sent_with_code" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[An email containing a single-use code has been sent to the address linked to this account. Please enter that code to continue.]]></phrase>
+  <phrase title="email_has_been_sent_with_code" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[Tähän tiliin liitettyyn osoitteeseen on lähetetty sähköpostiviesti, joka sisältää kertakäyttökoodin. Syötä koodi jatkaaksesi.]]></phrase>
   <phrase title="email_invalid_bounced" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Email invalid (bounced)]]></phrase>
   <phrase title="email_list" addon_id="XF" version_id="2010872" version_string="2.1.8 Patch 2"><![CDATA[Sähköpostiluettelo]]></phrase>
   <phrase title="email_options" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[Sähköpostiasetukset]]></phrase>
@@ -7041,7 +7041,7 @@ If you are sure you want to continue with the import, select the 'Skip import ch
   <phrase title="importing" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[Tuodaan]]></phrase>
   <phrase title="importing_exporting_style_archives_only_supported_if_meet_requirements" addon_id="XF" version_id="2020010" version_string="2.2.0 Alpha"><![CDATA[Importing to/exporting from style archives is only supported if you have <code>ZipArchive</code> support. You may need to ask your host to enable this.]]></phrase>
   <phrase title="in_a_minute" addon_id="XF" version_id="2010872" version_string="2.1.8 Patch 2"><![CDATA[Minuutissa]]></phrase>
-  <phrase title="in_a_moment" addon_id="XF" global_cache="1" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[In a moment]]></phrase>
+  <phrase title="in_a_moment" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[Hetkessä]]></phrase>
   <phrase title="in_most_cases_this_will_be_your_board_url_or_root_domain_minus_any" addon_id="XF" version_id="2020970" version_string="2.2.9"><![CDATA[In most cases, this will be your board URL or root domain minus any protocols or paths. The URL should look similar to this: example.com]]></phrase>
   <phrase title="in_x_minutes" addon_id="XF" global_cache="1" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[In {minutes} minutes]]></phrase>
   <phrase title="inactive_providers" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Inactive providers]]></phrase>
@@ -7498,7 +7498,7 @@ Callback arguments:
   <phrase title="log_out" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[Kirjaudu ulos]]></phrase>
   <phrase title="log_table_is_valid_but_it_must_not_contain_content_enter_different_name" addon_id="XF" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[The log table is valid but it must not contain content. Please enter a different table name.]]></phrase>
   <phrase title="logged_activity" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[Kirjattu toiminta]]></phrase>
-  <phrase title="logging_in_as" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[Sisäänkirjautuminen nimellä]]></phrase>
+  <phrase title="logging_in_as" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[Kirjautuminen sisään käyttäjänimellä]]></phrase>
   <phrase title="login" addon_id="XF" version_id="0" version_string=""><![CDATA[Kirjaudu sisään]]></phrase>
   <phrase title="login_required" addon_id="XF" version_id="2021270" version_string="2.2.12"><![CDATA[Sinun on oltava kirjautuneena sisään, että voit tehdä tämän.]]></phrase>
   <phrase title="login_to_xenforo_has_failed" addon_id="AddOnInstaller" version_id="3" version_string="1.0 ALPHA 1"><![CDATA[Login to XenForo.com has failed. Make sure you login with your XenForo username and password.]]></phrase>
@@ -16129,8 +16129,8 @@ Kun olet tehnyt tämän, skannaa alla olevan QR-koodi sovelluksella ja anna sove
   <phrase title="trophy_title.9" addon_id="" version_id="0" version_string=""><![CDATA[RAKASTAN TÄTÄ!]]></phrase>
   <phrase title="true_if_thread_creator_is_in_one_or_more_of_selected_groups" addon_id="XF" version_id="2020010" version_string="2.2.0 Alpha"><![CDATA[True if the thread creator is in one or more of the selected groups.]]></phrase>
   <phrase title="true_if_thread_creator_is_not_in_any_of_selected_groups" addon_id="XF" version_id="2020010" version_string="2.2.0 Alpha"><![CDATA[True if the thread creator is not in any of the selected groups.]]></phrase>
-  <phrase title="trust_device_desc" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[Jos valittu, sinun ei tarvitse suorittaa kaksivaiheista vahvistusta tällä laitteella seuraavien 30 päivän aikana.]]></phrase>
-  <phrase title="trust_this_device_for_30_days" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[Luota tähän laitteeseen 30 päivän ajan]]></phrase>
+  <phrase title="trust_device_desc" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[Jos valitset tämän vaihtoehdon, sinun ei tarvitse suorittaa kaksivaiheista vahvistusta tällä laitteella seuraavien 30 päivän aikana.]]></phrase>
+  <phrase title="trust_this_device_for_30_days" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[Luota tähän laitteeseen 30 päivän ajan]]></phrase>
   <phrase title="trusted_devices" addon_id="XF" version_id="2010872" version_string="2.1.8 Patch 2"><![CDATA[Luotetut laitteet]]></phrase>
   <phrase title="tumblr" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Tumblr]]></phrase>
   <phrase title="turnstile_challenges" addon_id="DigitalPoint/Cloudflare" version_id="1060170" version_string="1.6.1"><![CDATA[Turnstile challenges]]></phrase>
@@ -16901,7 +16901,7 @@ Select the updates you want to install below. The selected updates will be downl
   <phrase title="viewing_page" addon_id="XF" version_id="2021270" version_string="2.2.12"><![CDATA[Katsomassa sivua]]></phrase>
   <phrase title="viewing_search_forum" addon_id="XF" version_id="2020070" version_string="2.2.0"><![CDATA[Katselemessa hakufoorumia]]></phrase>
   <phrase title="viewing_tags" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Viewing tags]]></phrase>
-  <phrase title="viewing_thread" addon_id="XF" version_id="1040570" version_string="1.4.5"><![CDATA[katsomassa keskustelua]]></phrase>
+  <phrase title="viewing_thread" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[katsomassa viestiketjua]]></phrase>
   <phrase title="viewing_unknown_page" addon_id="XF" version_id="2021270" version_string="2.2.12"><![CDATA[Katsomassa tuntematonta sivua]]></phrase>
   <phrase title="views" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[Katselut]]></phrase>
   <phrase title="vinavb_customnodeicon_first_icon" addon_id="Vinavb_CustomNodeIcon" version_id="1" version_string="0.9"><![CDATA[Node Icon 1st]]></phrase>
