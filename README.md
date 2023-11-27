@@ -16,8 +16,6 @@ Jos saat tiedostoa lähettäessä virheilmoituksen:
 
 Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu vähintään isompi arvo kuin 3M
 
-## Kääntäjä(t)
-- [@Markus-7w](https://github.com/Markus-7w)
 ## Saattaa sisältää seuraavien lisäosien/tyylien käännöksiä
 
 - [UI.X 2 tyyli & lisäosa](https://www.themehouse.com/xenforo/2/themes/ui-x)
