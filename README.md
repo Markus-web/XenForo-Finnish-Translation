@@ -34,7 +34,7 @@ Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu vähintä
 - [Trader](https://www.xf2addons.com/resources/trader.55/)
 
 ## Haluatko auttaa kääntämisessä?
-Kirotus virheitä? Auta minua kääntämään joko tekemällä [pull request](https://github.com/Markus-web/XenForo-Finnish-Translation/compare). Vaihtoehtoisesti voit myös kertoa ongelmasta tekemällä uuden [issuen](https://github.com/Markus-web/XenForo-Finnish-Translation/issues/new/choose).
+Kirotus virheitä? Auta minua kääntämään joko tekemällä [pull requestin](https://github.com/Markus-web/XenForo-Finnish-Translation/compare). Vaihtoehtoisesti voit myös kertoa ongelmasta tekemällä uuden [issuen](https://github.com/Markus-web/XenForo-Finnish-Translation/issues/new/choose).
 
 ## Lista XenForo foorumeista
 Tätä projektia tai sen osaa käyttävät seuraavat foorumit
