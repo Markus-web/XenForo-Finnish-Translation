@@ -1,22 +1,20 @@
-# Xenforo suomeksi | Xenforo Finnish Translation
-Suomenkielinen käännöspaketti itse ylläpidettävälle XenForo foorumialustalle. Tarvitset vähintään XenForo 2.x version että voit asentaa tämän kielipaketin. Tämä käännöspaketti sisältää myös käännöksiä parille lisäosalle ja tyylille.
+# XenForo suomeksi | XenForo Finnish Translation
+**Täysin suomenkielinen käännöspaketti** XenForo-foorumialustalle, tarkoitettu itse ylläpidettäville sivustoille. Tämän kielipaketin avulla voit käyttää XenForo-alustaa kokonaan suomen kielellä. Tukee XenForo 2.x -versioita ja sisältää käännöksiä myös muutamille suosituimmille lisäosille ja tyyleille.
 
 ## Julkaisut
-- [Lataa kehitteillä oleva versio](https://github.com/Markus-7w/XenForo-suomeksi/archive/refs/heads/main.zip)
-- [Lataa viimeisin julkaisu](https://github.com/Markus-7w/XenForo-suomeksi/releases)
-## Asennus
-Lähetä language-Finnish-(FI).xml -tiedosto XenForon ylläpitopaneelista admin.php:n kautta sivustollesi. 
+- **[Kehitysversio](https://github.com/Markus-7w/XenForo-suomeksi/archive/refs/heads/main.zip)** - Lataa viimeisin kehitysversio
+- **[Viimeisin julkaisu](https://github.com/Markus-7w/XenForo-suomeksi/releases)** - Lataa uusin virallinen julkaisu
 
-Mene: `Appearance --> Languages --> Import`
+## Asennusohjeet
+1. Lataa `language-Finnish-(FI).xml` -tiedosto.
+2. Siirry XenForon hallintapaneeliin: `example.com/admin.php`.
+3. Valitse **Appearance** > **Languages** > **Import**.
+4. Lataa `language-Finnish-(FI).xml` -tiedosto käyttöön.
 
-Esimerkki osoitteesta: `example.com/admin.php?languages/import`
-## Huomioitavaa PHP -virhetilanteissa
-Jos saat tiedostoa lähettäessä virheilmoituksen:
-`"Please upload a valid language XML file"` 
+**Huom:** Jos tiedoston latauksessa tulee virhe `Please upload a valid language XML file`, varmista, että palvelimen PHP:n `upload_max_filesize`-asetus on vähintään 3M (tai suurempi kuin ladattavan .xml-tiedoston koko).
 
-Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu vähintään isompi arvo kuin 3M (tai isompi kun nykyinen .xml tiedostokoko)
-
-## Sisältää seuraavien lisäosien/tyylien käännöksiä
+## Mukana olevat lisäosat ja tyylit
+Tämä käännöspaketti sisältää seuraavien lisäosien ja tyylien suomennoksia:
 
 - [UI.X 2 tyyli & lisäosa](https://www.themehouse.com/xenforo/2/themes/ui-x)
 - [Connected Account Providers](https://www.themehouse.com/xenforo/2/addons/connected-account-providers)
@@ -34,14 +32,15 @@ Varmista että web-palvelimesi PHP:n "upload_max_filesize" on asetettu vähintä
 - [Trader](https://www.xf2addons.com/resources/trader.55/)
 
 ## Haluatko auttaa kääntämisessä?
-Kirotus virheitä? Auta minua kääntämään joko tekemällä [pull requestin](https://github.com/Markus-web/XenForo-Finnish-Translation/compare). Vaihtoehtoisesti voit myös kertoa ongelmasta tekemällä uuden [issuen](https://github.com/Markus-web/XenForo-Finnish-Translation/issues/new/choose).
+Huomasitko kirjoitusvirheen tai käännöksessä parannettavaa? Voit auttaa parantamaan tätä projektia:
 
-## Lista XenForo foorumeista
-Tätä projektia tai sen osaa käyttävät seuraavat foorumit
+- **Pull Request**: Tee omat parannuksesi ja luo [pull request](https://github.com/Markus-web/XenForo-Finnish-Translation/compare).
+- **Ilmoita ongelmasta**: Luo uusi [issue](https://github.com/Markus-web/XenForo-Finnish-Translation/issues/new/choose) ja kuvaile löytämäsi ongelma.
+
+## Käännöspaketin käyttäjät
+Alla on lista foorumeista, jotka käyttävät tätä suomenkielistä käännöstä:
 
 - [AvantClub.fi](https://www.avantclub.fi/)
 
-
-## Roadmap?
-
-- Kääntää kokonaan suomeksi!
+## Roadmap
+- **Tavoite:** Kääntää koko XenForo ja mahdollisimman moni lisäosa suomeksi!
