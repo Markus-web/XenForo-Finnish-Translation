@@ -5,8 +5,8 @@
 Tätä käännöspakettia saa vapaasti muokata ja käyttää omiin tarpeisiin. Jos haluat poistaa tekijänoikeusmaininnan, poista vain fraasi `extra_copyright` kielitiedostosta (ohjeet alempana). Tämä käännöspaketti on julkaistu MIT-lisenssillä, joka sallii käytön, muokkauksen ja jakelun ilman rajoituksia, kunhan alkuperäinen tekijänoikeusmaininta säilytetään.
 
 ## Julkaisut
-- **[Kehitysversio](https://github.com/Markus-web/XenForo-suomeksi/archive/refs/heads/main.zip)** - Lataa viimeisin kehitysversio
-- **[Viimeisin virallinen julkaisu](https://github.com/Markus-web/XenForo-suomeksi/releases)** - Lataa uusin virallinen julkaisu
+- **[Kehitysversio](https://github.com/Markus-web/XenForo-Finnish-Translation/archive/refs/heads/main.zip)** - Lataa viimeisin kehitysversio
+- **[Viimeisin virallinen julkaisu](https://github.com/Markus-web/XenForo-Finnish-Translation/releases)** - Lataa uusin virallinen julkaisu
 
 ## Asennusohjeet
 Tämä kielipaketti on tarkoitettu XenForo 2.x+ -versioille. Vanhemmissa XenForo-versioissa voi esiintyä virheitä tai yhteensopivuusongelmia.
@@ -20,6 +20,15 @@ Tämä kielipaketti on tarkoitettu XenForo 2.x+ -versioille. Vanhemmissa XenForo
 - Jos latauksessa ilmenee virhe `Please upload a valid language XML file`, varmista, että palvelimen PHP:n `upload_max_filesize`-asetus on vähintään 3M (tai suurempi kuin ladattavan .xml-tiedoston koko).
 - Suosittelemme varmuuskopioimaan nykyisen kielipaketin ennen uuden asentamista.
 - Jos haluat päivittää olemassa olevan kielipaketin, valitse **Overwrite language** -vaihtoehto tuonnin aikana.
+
+### Vinkkejä käännösfraaseihin (ylläpitäjille)
+- Säilytä muuttujat sellaisenaan: `{username}`, `{board}`, `{date}`, `{tag}`, `{count}` jne.
+- Säilytä printf-tyyliset paikat: `%d`, `%s`, `%1$s` jne. sekä BB-koodit ja HTML-tagit.
+- Vältä johtavia tai perässä olevia ylimääräisiä välilyöntejä, jos fraseja verrataan tarkasti.
+
+### Yhteensopivuus
+- Testattu XenForo-versioilla 2.3.x (viimeksi: 2.3.7).
+- Tiedoston koko: noin 3.1 MB. Jos tuonti epäonnistuu koon vuoksi, laajenna web-palvelimesi php `upload_max_filesize` ja `post_max_size` arvoja.
 
 ### Markus Media -tekstin poistaminen
 Kielipaketin mukana saattaa tulla ylimääräinen tekijänoikeusteksti ("Verkkosivun toteutus: Markus Media"), joka näkyy sivuston alalaidassa. Voit poistaa tai muokata tämän tekstin seuraavasti:
