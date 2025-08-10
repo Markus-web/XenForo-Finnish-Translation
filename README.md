@@ -21,6 +21,20 @@ Tämä kielipaketti on tarkoitettu XenForo 2.x+ -versioille. Vanhemmissa XenForo
 - Suosittelemme varmuuskopioimaan nykyisen kielipaketin ennen uuden asentamista.
 - Jos haluat päivittää olemassa olevan kielipaketin, valitse **Overwrite language** -vaihtoehto tuonnin aikana.
 
+## Päivittäminen
+- Lataa uusin `language-Finnish-(FI).xml` julkaisuista.
+- XenForon hallinnassa: **Appearance** > **Languages** > valitse nykyinen suomen kieli > **Import** > valitse tiedosto ja ruksaa **Overwrite language**.
+- Tyhjennä välimuisti tarvittaessa: **Development** > **Clear caches**.
+
+## Vianmääritys
+- “Please upload a valid language XML file”: tiedostokoko ylittää PHP-rajan → nosta `upload_max_filesize` ja `post_max_size`.
+- Merkkipolut/ääkköset sekaisin: varmista UTF-8 ilman BOM:ia.
+- Templatet rikkoutuvat: tarkista, ettei fraaseihin ole lisätty tai poistettu HTML/BB-koodien rakenteita.
+
+## Vaatimukset
+- XenForo 2.3.x suositeltu (toimii myös 2.2.x, pienin varauksin).
+- PHP 8.0+ suositus. Suurehko XML-tiedosto edellyttää riittäviä PHP rajoja.
+
 ### Vinkkejä käännösfraaseihin (ylläpitäjille)
 - Säilytä muuttujat sellaisenaan: `{username}`, `{board}`, `{date}`, `{tag}`, `{count}` jne.
 - Säilytä printf-tyyliset paikat: `%d`, `%s`, `%1$s` jne. sekä BB-koodit ja HTML-tagit.
@@ -71,6 +85,14 @@ Huomasitko kirjoitusvirheen tai parannettavaa käännöksissä? Voit auttaa para
 
 - **Pull Request**: Tee omat parannuksesi ja luo [pull request](https://github.com/Markus-web/XenForo-Finnish-Translation/compare).
 - **Ilmoita ongelmasta**: Luo uusi [issue](https://github.com/Markus-web/XenForo-Finnish-Translation/issues/new/choose) ja kuvaile löytämäsi ongelma.
+
+## Käännöstyyliohje ja termistö
+- Käytä luonnollista, selkeää yleiskieltä. Vältä liian teknisiä anglismeja, kun suomenkielinen vastine on vakiintunut.
+- Säilytä termit johdonmukaisina: thread = keskustelu/ketju, post = viesti, attachment = liite, tag = tunniste, reaction = reaktio.
+- Pidä tekstit lyhyinä käyttöliittymässä; vältä toistoa.
+
+## Lisenssi
+Tämä projekti on lisensoitu MIT-lisenssillä. Katso tiedosto [LICENSE](LICENSE).
 
 ## Käännöspaketin käyttäjät
 Alla on lista foorumeista, jotka käyttävät tätä suomenkielistä käännöspakettia:
