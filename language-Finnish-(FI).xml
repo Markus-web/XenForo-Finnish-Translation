@@ -7251,7 +7251,7 @@ If enabled, users will be able to pay with Apple Pay, Android Pay, Google Pay an
   <phrase title="extension_x_already_defined" addon_id="XF" version_id="2020010" version_string="2.2.0 Alpha"><![CDATA[The extension '{name}' has already been defined.]]></phrase>
   <phrase title="extra" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Extra]]></phrase>
   <phrase title="extra_attributes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Extra attributes]]></phrase>
-  <phrase title="extra_copyright" addon_id="XF" version_id="2030770" version_string="2.3.7"><![CDATA[<a href="https://markusmedia.fi/" target="_blank">Verkkosivun toteutus – <strong>Markus Media</strong></a>]]></phrase>
+  <phrase title="extra_copyright" addon_id="XF" version_id="2030770" version_string="2.3.7"><![CDATA[<a href="https://markusmedia.fi/" target="_blank">XenForo-sivuston suomenkielinen lokalisointi – Markus Media</a>]]></phrase>
   <phrase title="extra_email_footer_html" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[Extra email footer (HTML)]]></phrase>
   <phrase title="extra_email_footer_plain_text" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[Extra email footer (plain text)]]></phrase>
   <phrase title="extra_footer_copyright" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[Extra footer copyright]]></phrase>
