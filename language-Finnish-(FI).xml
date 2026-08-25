@@ -8980,7 +8980,7 @@ This only controls the tab selection.  It will not automatically add a link to t
   <phrase title="new_posts_filter_unread_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[A list of threads which contain unread posts.]]></phrase>
   <phrase title="new_posts_filter_watched_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[A list of threads the user is watching that have been recently posted in.]]></phrase>
   <phrase title="new_posts_latest" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Latest]]></phrase>
-  <phrase title="new_posts_unread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Unread]]></phrase>
+  <phrase title="new_posts_unread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Lukemattomat]]></phrase>
   <phrase title="new_posts_watched" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Watched]]></phrase>
   <phrase title="new_profile_posts" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[Uudet Profiiliviestit]]></phrase>
   <phrase title="new_profile_posts_display_style_full_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[A full size view, displaying similar to on profiles.]]></phrase>
@@ -17509,7 +17509,7 @@ For more detailed information, see our <a href="{cookies_link}">cookies page</a>
   <phrase title="to_x" addon_id="DigitalPoint/Cloudflare" version_id="1030070" version_string="1.3.0"><![CDATA[To: {to}]]></phrase>
   <phrase title="today_at_x" addon_id="XF" global_cache="1" version_id="0" version_string=""><![CDATA[tänään klo {time}]]></phrase>
   <phrase title="toggle_bb_code" addon_id="XF" version_id="2010872" version_string="2.1.8 Patch 2"><![CDATA[Vaihda BB-koodiin tai pois]]></phrase>
-  <phrase title="toggle_expanded" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Toggle expanded]]></phrase>
+  <phrase title="toggle_expanded" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Vaihda laajennus]]></phrase>
   <phrase title="toggle_locked_scrolling" addon_id="XF" version_id="2001070" version_string="2.0.10"><![CDATA[Toggle locked scrolling]]></phrase>
   <phrase title="toggle_multi_quote_tooltip" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[Kytke monilainauksen vaihtaminen]]></phrase>
   <phrase title="toggle_visibility" addon_id="XF" version_id="2020070" version_string="2.2.0"><![CDATA[Vaihda näkyvyyttä]]></phrase>
@@ -19331,4 +19331,6 @@ Kaksivaiheinen vahvistus lisää tilisi turvallisuutta vaatimalla sinua antamaan
   <phrase title="zone_zone_settings" addon_id="DigitalPoint/Cloudflare" version_id="1090630" version_string="1.9.6 Beta"><![CDATA[Zone.Zone Settings]]></phrase>
   <phrase title="zone_zone_waf" addon_id="DigitalPoint/Cloudflare" version_id="1090630" version_string="1.9.6 Beta"><![CDATA[Zone.Zone WAF]]></phrase>
   <phrase title="zoom" addon_id="XF" version_id="2021370" version_string="2.2.13"><![CDATA[Zoomaa]]></phrase>
+  <phrase title="skip_to_content" addon_id="XF" version_id="2030670" version_string="2.3.6"><![CDATA[Siirry sisältöön]]></phrase>
+  <phrase title="main_navigation" addon_id="XF" version_id="2030670" version_string="2.3.6"><![CDATA[Päänavigaatio]]></phrase>
 </language>
