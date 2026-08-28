@@ -1,0 +1,31 @@
+name: Käännösvirhe tai puuttuva fraasi
+description: Ilmoita väärästä, puuttuvasta tai rikkinäisestä suomennoksesta
+title: "[käännös] "
+labels: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Ongelma
+      description: Mikä on väärin tai puuttuu? Liitä mieluiten fraasin title (Phrase title).
+    validations:
+      required: true
+  - type: input
+    id: xf_version
+    attributes:
+      label: XenForo-versio
+      placeholder: "2.3.12"
+    validations:
+      required: true
+  - type: input
+    id: addon
+    attributes:
+      label: Lisäosa (jos liittyy)
+      placeholder: "ThemeHouse/UIX tai tyhjä jos ydin"
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Ehdotettu suomennos
+      description: Nykyinen teksti ja parempi vaihtoehto.
+    validations:
+      required: false

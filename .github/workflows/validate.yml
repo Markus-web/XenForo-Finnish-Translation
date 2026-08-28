@@ -1,0 +1,30 @@
+name: Validate language XML
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  xml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install xmllint
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+      - name: Well-formed XML
+        run: xmllint --noout "language-Finnish-(FI).xml"
+      - name: Phrase count
+        run: |
+          count=$(grep -c '<phrase ' "language-Finnish-(FI).xml")
+          echo "phrases=$count"
+          test "$count" -gt 10000
+      - name: UTF-8 without BOM
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          data = Path("language-Finnish-(FI).xml").read_bytes()
+          if data.startswith(b"\xef\xbb\xbf"):
+              raise SystemExit("BOM found")
+          data.decode("utf-8")
+          PY
